@@ -47,17 +47,30 @@
          backlight values for LUX levels between these control points.
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>10</item>
-        <item>40</item>
-        <item>50</item>
-        <item>100</item>
-        <item>260</item>
-        <item>420</item>
-        <item>580</item>
-        <item>800</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>8</item>
+        <item>13</item>
+        <item>17</item>
+        <item>21</item>
+        <item>26</item>
+        <item>30</item>
+        <item>34</item>
+        <item>39</item>
+        <item>60</item>
+        <item>140</item>
+        <item>310</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>1200</item>
         <item>1500</item>
-        <item>2350</item>
-        <item>3800</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -66,17 +79,30 @@
          The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>4</item>
-        <item>6</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>8</item>
+        <item>10</item>
         <item>12</item>
-        <item>18</item>
-        <item>40</item>
-        <item>85</item>
-        <item>120</item>
-        <item>145</item>
-        <item>160</item>
-        <item>185</item>
-        <item>205</item>
+        <item>15</item>
+        <item>17</item>
+        <item>24</item>
+        <item>30</item>
+        <item>30</item>
+        <item>44</item>
+        <item>45</item>
+        <item>48</item>
+        <item>55</item>
+        <item>64</item>
+        <item>66</item>
+        <item>69</item>
+        <item>84</item>
+        <item>93</item>
+        <item>105</item>
+        <item>200</item>
+        <item>240</item>
         <item>255</item>
     </integer-array>
 
@@ -93,7 +119,7 @@
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
-    
+
     <!-- Maximum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness higher this level. -->
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
@@ -139,7 +165,7 @@
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
-    
+
     <!-- Configure mobile tcp buffer sizes in the form:
          rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
          If no value is found for the rat-name in use, the system default will be applied.
@@ -157,11 +183,10 @@
         <item>gprs:4092,8760,11680,4096,8760,11680</item>
         <item>evdo:4094,87380,524288,4096,16384,262144</item>
     </string-array>
-    
+
     <!-- Configure wifi tcp buffersizes in the form:
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
     <string name="config_wifi_tcp_buffers" translatable="false">524288,2097152,8388608,262144,524288,4194304</string>
-
 
     <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist
