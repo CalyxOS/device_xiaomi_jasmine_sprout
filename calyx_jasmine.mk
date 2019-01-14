@@ -21,7 +21,11 @@
 # definition file).
 #
 
-# inherit Mi A2 LineageOS device config
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_jasmine_sprout.mk \
-    $(LOCAL_DIR)/calyx_jasmine.mk
+# Inherit some common stuff.
+$(call inherit-product, vendor/calyx/config/common.mk)
+
+# Inherit from jasmine device
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
+
+PRODUCT_NAME := calyx_jasmine
+PRODUCT_MODEL := Mi A2
