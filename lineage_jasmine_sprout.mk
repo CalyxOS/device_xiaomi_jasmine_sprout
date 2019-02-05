@@ -27,17 +27,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from jasmine device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_NAME := lineage_jasmine
+PRODUCT_NAME := lineage_jasmine_sprout
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := jasmine
+PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi A2
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="jasmine" \
-    PRODUCT_NAME="jasmine" \
+    TARGET_DEVICE="jasmine_sprout" \
+    PRODUCT_NAME="jasmine_sprout" \
     PRIVATE_BUILD_DESC="jasmine-user 9 PKQ1.180904.001 V10.0.3.0.PDIMIXM release-keys"
 
 BUILD_FINGERPRINT := "xiaomi/jasmine/jasmine_sprout:9/PKQ1.180904.001/V10.0.3.0.PDIMIXM:user/release-keys"
 
-TARGET_VENDOR_PRODUCT_NAME := jasmine
+TARGET_VENDOR_PRODUCT_NAME := jasmine_sprout
