@@ -24,4 +24,4 @@
 # inherit MI A2 HAVOC device config
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_jasmine_sprout.mk \
-    $(LOCAL_DIR)/calyx_jasmine.mk
+    $(LOCAL_DIR)/calyx_jasmine_sprout.mk
