@@ -21,6 +21,6 @@
 # definition file).
 #
 
-# inherit MI A2 HAVOC device config
+# inherit Mi A2 LineageOS device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_jasmine_sprout.mk
+    $(LOCAL_DIR)/lineage_jasmine_sprout.mk
