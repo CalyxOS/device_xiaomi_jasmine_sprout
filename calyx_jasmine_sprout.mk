@@ -25,7 +25,7 @@
 $(call inherit-product, vendor/calyx/config/common.mk)
 
 # Inherit from jasmine device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 PRODUCT_NAME := calyx_jasmine_sprout
 PRODUCT_MODEL := Mi A2
