@@ -50,8 +50,3 @@ VENDOR_SECURITY_PATCH := 2019-12-05
 
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
-
--include device/twrp/jasmine_sprout/twrp.mk
-
-# TWRP Support
-include $(DEVICE_PATH)/twrp.mk
