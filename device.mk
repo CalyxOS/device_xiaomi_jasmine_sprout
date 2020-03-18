@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.verity.rc
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=1
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
