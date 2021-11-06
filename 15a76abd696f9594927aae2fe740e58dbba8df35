@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf4880c4_a0d503b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-06T22:29:23Z",
+      "side": 1,
+      "message": "I already tagged this repo 😞\n\nBut this is still good for next build.",
+      "revId": "15a76abd696f9594927aae2fe740e58dbba8df35",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
